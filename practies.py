@@ -6,5 +6,7 @@
 
 
 
-if 80 <= 100 :
+if 80 <= 70 :
     print("A+")
+else:
+    print("Faild")
