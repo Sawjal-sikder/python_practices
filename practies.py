@@ -1,12 +1,9 @@
-# a = 10
-# b = 30
-# if b > a :
-#     print("a is geter than b")
+# Given an integer, , perform the following conditional actions:
 
+# If  is odd, print Weird
+# If  is even and in the inclusive range of  to , print Not Weird
+# If  is even and in the inclusive range of  to , print Weird
+# If  is even and greater than , print Not Weird
 
-
-
-if 80 <= 70 :
-    print("A+")
-else:
-    print("Faild")
+x = input()
+print(x)
