@@ -1,30 +1,20 @@
-# a = 30
-# b = 300
-# if a > b:
-#     print("a is greater than b")
-# elif a == b:
-#     print("a and b are equall")
+
+# Passenger = input()
+
+# if Passenger == "Comilla":
+#     print("500 Taka")
+# elif Passenger == "Chittagong":
+#     print(" Taka")
+# elif Passenger == "Rajshahi":
+#     print("1200 Taka")
 # else:
-#     print("b is greater than a")
+#     print("Error")  
 
-# print("a is greater than b") if a > b else print("b is greater than a")
+service_year = input()
+Salary = input()
+persent = Salary * 0.05
 
-
-# marks = 65
-
-# if marks >= 80 and 100 > marks:
-#     print("A+")
-# elif marks >= 70 and 79 > marks:
-#     print ("A")
-# elif marks >= 60 and 69 > marks:
-#     print("A-")
-# else:
-#     print("Failed")
-
-
-
-
-
-# a = 2520
-# b = 2520
-# print("a is greater than b") if a > b else print("a is equal") if a == b else print("a is less than b") 
+if service_year >= 5:
+    print({persent})
+else:
+    print("Error")

@@ -11,4 +11,4 @@ elif b == "*":
 elif b == "/":
     print(a / c)
 else:
-    print("Error")
+    print("Error")  
