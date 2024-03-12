@@ -10,13 +10,13 @@
 # print("a is greater than b") if a > b else print("b is greater than a")
 
 
-# marks = 6
+# marks = 65
 
 # if marks >= 80 and 100 > marks:
 #     print("A+")
-# if marks >= 70 and 79 > marks:
+# elif marks >= 70 and 79 > marks:
 #     print ("A")
-# if marks >= 60 and 69 > marks:
+# elif marks >= 60 and 69 > marks:
 #     print("A-")
 # else:
 #     print("Failed")
