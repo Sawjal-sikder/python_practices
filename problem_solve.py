@@ -136,3 +136,65 @@
 #     print("Monument is : Jal Mahal")
 # else:
 #     print("Error")
+
+# A company decided to give bonus to employee according to following criteria:
+# Time period of service	Bonus
+# More than 10 years	10%
+# >=6 and <=10 years 	8%
+# less than 6 years 	5%
+# ask user for their salary and years of service and print the net bonus amount
+
+# Salary = float(input("Enter Salary Here : "))
+# S_Year = int(input("Enter Service Year Here : "))
+
+# if S_Year > 10:
+#     print(Salary*0.10)
+# elif S_Year >= 6 and S_Year <= 10:
+#     print(Salary*0.08)
+# elif S_Year < 6 :
+#     print(Salary*0.05)
+# else:
+#     print("error")
+
+
+# Accept the marked price from the user and clculate the net amount as (Marketd price - discount) to pay according to following criteria:
+
+# Maked Price		Discount
+# >10000			20%
+# >7000 and <=10000	15%
+# <=7000			10%
+
+# MarketPrice = float(input("Enter Market Price Here : "))
+# TotalAmount = 0
+# DiscountAmout = 0
+# if MarketPrice > 10000:
+#     DiscountAmout = MarketPrice*0.20
+# elif MarketPrice > 7000 and MarketPrice <= 10000:
+#     DiscountAmout = MarketPrice*0.15
+# elif MarketPrice <= 7000:
+#     DiscountAmout = MarketPrice*0.10
+# TotalAmount = MarketPrice-DiscountAmout
+# print("Net Payable Amount", TotalAmount)
+
+# Write a program to accept Percentage and display the catagory according to the following criteria:
+
+# Percentage		Catagory
+# < 40			Failed
+# >=40 & <55		Fair
+# >=55 & <65		Good
+# >=65 			Excellent
+
+
+# Percentange = int(input("Enter Percentange Here : "))
+# display = ""
+# if Percentange < 40:
+#     display = "Faield"
+# elif Percentange >= 40 and Percentange < 55:
+#     display = "Fair"
+# elif Percentange >= 55 and Percentange < 65:
+#     display = "Good"
+# elif Percentange >= 65:
+#     display = "Excellent"
+# else:
+#     display = "Error"
+# print(display)
