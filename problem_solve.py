@@ -86,3 +86,6 @@
 # else:
 #     print("Error")
 
+
+# Q5. Write a program to accept a number from 1 to 12 and display of the month and days in that month like
+# 1 for january and number of days 31 and so on
