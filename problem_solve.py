@@ -89,3 +89,50 @@
 
 # Q5. Write a program to accept a number from 1 to 12 and display of the month and days in that month like
 # 1 for january and number of days 31 and so on
+
+# month = int(input("Enter a number from 1 to 12 : "))
+
+# if month == 1:
+#     print("January is 31 days")
+# elif month == 2:
+#     print("February is 28 days")
+# elif month == 3:
+#     print("March is 31 days")
+# elif month == 4:
+#     print("April is 30 days")
+# elif month == 5:
+#     print("May is 31 days")
+# elif month == 6:
+#     print("June is 30 days")
+# elif month == 7:
+#     print("July is 31 days")
+# elif month == 8:
+#     print("August is 31 days")
+# elif month == 9:
+#     print("September is 30 days")
+# elif month == 10:
+#     print("October is 31 days")
+# elif month == 11:
+#     print("November is 30 days")
+# elif month == 12:
+#     print("December is 31 days")
+# else:
+#     print("Error")
+
+# Q9. Accept any city from the user and display monument of that city.
+
+# 	city		Monument
+# 	Delhi		Red Fort
+# 	Agra		Taj Mahal
+# 	Jaipu		Jal Mahal
+
+# city = str(input("Enter City Name : "))
+
+# if city == "Delhi":
+#     print("Monument is : Red Fort")
+# elif city == "Agra":
+#     print("Monument is : Taj Mahal")
+# elif city == "Jaipu":
+#     print("Monument is : Jal Mahal")
+# else:
+#     print("Error")
