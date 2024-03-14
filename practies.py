@@ -16,3 +16,44 @@ x = "Hello world"
 
 # print(x.replace("H", "J"))
 # print(x.split(","))
+
+
+
+# While Loop:
+    
+a = 0
+
+while a <= 10: 
+    print(a)
+    a+=1
+a = True
+
+if a:
+    print('ok')
+a = 10
+
+if a%2 == 0: print('ok') , print('done')
+year = int(input('Enter a year: '))
+
+if year%4 == 0:
+    if year%100 == 0:
+        if year%400==0:
+           print('Leap Year')
+        else:
+            print('Not Leap year')
+    else:
+        print('Leap Year')
+else:
+    print('Not Leap year')
+a = 100
+
+if a<50:
+    if a>8:
+        if a == 10: 
+            print('ok')
+        else:
+            print('3rd not ok')
+    else:
+        print(' 2nd not ok')
+else:
+    print('1st not ok')
