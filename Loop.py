@@ -61,15 +61,33 @@ fruits = ["apple", "banana", "cherry"]
 #         break
 
 # continue Statement
-for x in fruits:
-    if x == "banana":
-        continue
-    print(x)
+# for x in fruits:
+#     if x == "banana":
+#         continue
+#     print(x)
 
 # range() Function
+# for x in range(6,10):
+#     print(x)
+
 # Else in For Loop
+# for x in fruits:
+#     print(x)
+# else:
+#     print("else")
+
 # Nested Loops
 # pass Statement
+
+# a = 1
+# while a < 8:
+#     print(a*"*")
+#     a +=1
+
+# b = 8
+# while b >= 1:
+#     print (b*"*")
+#     b -=1 
 
 
 
