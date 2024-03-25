@@ -45,3 +45,21 @@ print("Md" in Name)
 
 if "Md" in Name:
     print(f"Yes, Md are availavle in {Name}")
+
+print(Name[::-1])
+print(Name.upper())
+print(Name.lower())
+print(Name.replace("Sawjal", "Sajal"))
+print(Name.split(" "))
+
+a = "Hello"
+b = "World"
+c = a+b
+print(c)
+print(a," ", b)
+print(f"{a} {b}")
+
+print(Name.capitalize())
+c = Name.count("Md Sawjal Sikder")
+print(c)
+
