@@ -39,3 +39,21 @@
 # while a <= 10:
 #     print("10 x",a,"=", a*10)
 #     a+=1
+
+
+
+# for i in range(1,11,1):
+
+#     print("5 x", i,"=", i*5 )
+
+row = 5
+# for i in range(1, row + 1, 1):
+#     for j in range(1, i + 1):
+#         print(i, end=' ')
+#     print("")    
+
+# for i in range(6):
+#     for j in range(6):
+#       if j == 2:
+#          break
+#       print(i,j)
