@@ -46,16 +46,6 @@ x = 7
 #     print(x)
 
 # 1. Use for loop to iterate from 0 to 100 and print the sum of all numbers.
-
-
-# s = 0
-# n = 10
-# for i in range(1, n + 1, 1):
-#     s += i
-# print("\n")
-# print("Sum is: ", s)
-
-
 i = 0
 n = 10
 for x in range(1, n+1, 1):
