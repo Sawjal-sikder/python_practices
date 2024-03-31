@@ -87,3 +87,20 @@
 #     if i%5 == 0:
 #         print(i)
 
+
+# x = "python"
+# for i in range(len(x)):
+#     print(x[i])
+
+
+
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+newlist = []
+a = str(input("Enter Your Search : "))
+
+for x in fruits:
+  if a in x:
+    newlist.append(x)
+
+print(newlist)
+
