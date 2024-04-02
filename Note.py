@@ -19,6 +19,13 @@
 
 # 2. Given an integer x, return true if x is a palindrome, and false otherwise.
 
+n = int(input("Enter Number : "))
+nRev = n[::-1]
+
+if n==nRev:
+    print("True")
+else:
+    print("False")
 
 
 
